@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v1.2.0 (2026-06-03)
+
+### Features
+
+- Release fix
+  ([`8445a28`](https://github.com/indermatharu/gh-actions2/commit/8445a2823016cd8d238d11916689f07dd945004a))
+
+
 ## v1.1.1 (2026-06-03)
 
 ### Bug Fixes
