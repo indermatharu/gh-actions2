@@ -1,0 +1,22 @@
+[project]
+name = "python-hello-world"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+hello_world = "hello_world:main"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.3",
+    "python-semantic-release>=10.5.3",
+]
+
+[tool.semantic.release]
+version_toml = ["pyproject.toml:project.version"]
+branch = "main"
+upload_to_pypi = false
+build_command = false
