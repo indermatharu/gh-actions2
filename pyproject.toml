@@ -19,4 +19,7 @@ dev = [
 version_toml = ["pyproject.toml:project.version"]
 branch = "main"
 upload_to_pypi = false
-build_command = false
+build_command = ""
+
+[tool.semantic_release.publish]
+upload_to_vcs_release = false
