@@ -21,5 +21,8 @@ branch = "main"
 upload_to_pypi = false
 build_command = ""
 
-[tool.semantic_release.publish]
+[tool.semantic_release]
+version_toml = [
+    "pyproject.toml:project.version"
+]
 upload_to_vcs_release = false
